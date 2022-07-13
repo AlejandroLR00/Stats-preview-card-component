@@ -7,6 +7,7 @@
     /* Neutral */
     --White: hsl(0, 0%, 100%);
     --Slightly-transparent-white1: hsla(0, 0%, 100%, 0.75);
+    
     --Slightly-transparent-white: hsla(0, 0%, 100%, 0.6);
 
     /* font */
@@ -24,11 +25,11 @@
 
 body{
     font-size: 15px;
-    /* background-color: var(--Very-dark-blue); */
+    background-color: var(--Very-dark-blue);
 }
 
 .container{
-    outline: 1px solid burlywood;
+    /* outline: 1px solid burlywood; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,26 +67,45 @@ body{
 
 .card-sumary{
     text-align: center;
-    color: var(--White);
 }
 
-
-.paragraph{
-    color: var(--Slightly-transparent-white1);
+.title{
+    color: var(--White);
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 35px;
+    margin-right: 35px;
 }
 
 .accent{
     color: var(--Soft-violet);
 }
 
+.paragraph{
+    color: var(--Slightly-transparent-white1);
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+
+}
+
 .card-stats{
     text-align: center;
+    font-family: 'Inter', sans-serif;
 }
 
 .stats{
     color: var(--White);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0;
 }
 
 .stats-name{
     color: var(--Slightly-transparent-white);
+    font-weight: 400;
+    margin-top: 10px;
 }
