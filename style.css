@@ -9,14 +9,6 @@
     --Slightly-transparent-white1: hsla(0, 0%, 100%, 0.75);
     
     --Slightly-transparent-white: hsla(0, 0%, 100%, 0.6);
-
-    /* font */
-    
-    /* 400, 700 */
-    --inter: font-family: 'Inter', sans-serif;
-
-    /* 400 */
-    --lexend: font-family: 'Lexend Deca', sans-serif;
 }
 
 *{
