@@ -31,11 +31,10 @@ body{
 }
 
 .card{
-    /* outline: 1px solid red; */
     background-color: var(--Dark-desaturated-blue);
     border-radius: 13px;
     overflow: hidden;
-    margin: 86px 22px;
+    margin: 96px 22px;
     width: 320px;
     height: 780px;
     position: relative;
